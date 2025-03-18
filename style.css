@@ -24,3 +24,10 @@ header,footer{
     background-color: #ddd;
     padding: 20px;
 }
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 20px;
+}
