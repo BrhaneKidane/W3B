@@ -17,3 +17,10 @@ body{
     background-color: antiquewhite;
 
 }
+
+header,footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 20px;
+}
