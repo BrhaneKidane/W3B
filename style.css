@@ -31,8 +31,27 @@ main{
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 a{
     text-decoration: none;
+}
+
+@media (max-width:600px){
+
+    body{
+        background-color: aqua;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width: 70vw;
+        height: 50vh;
+    }
+
 }
